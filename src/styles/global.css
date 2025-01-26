@@ -1,0 +1,21 @@
+/*General Formatting*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Body Formatting*/
+body {
+    background-image: var(--background-image);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*End of general formatting*/
+
+/*Root Formatting*/
+:root {
+    /*Background img formatting*/
+    --background-image:url('./src/assets/whiteFluidbg.jpg');
+}
